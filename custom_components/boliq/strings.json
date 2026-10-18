@@ -1,0 +1,33 @@
+{
+  "application_credentials": {
+    "description": "Copy the Client ID and Client Secret from {developers_url}. Your own Boliq login is still needed to choose your bollards in the next step."
+  },
+  "config": {
+    "step": {
+      "pick_implementation": {
+        "title": "Choose how to sign in"
+      },
+      "reauth_confirm": {
+        "title": "Sign in to Boliq again",
+        "description": "Home Assistant can no longer reach your bollards. This happens if you disconnected it in Connected apps on boliq.co.uk. Sign in again to choose your bollards."
+      }
+    },
+    "abort": {
+      "already_configured": "These bollards are already set up.",
+      "cannot_connect": "Could not reach Boliq. Try again in a moment.",
+      "no_devices": "No bollards were chosen, or their monthly plan is paused.",
+      "wrong_account": "That is a different Boliq account from the one set up here.",
+      "reauth_successful": "Signed in again.",
+      "missing_credentials": "Add the Client ID and Client Secret Boliq gave you first.",
+      "authorize_url_timeout": "Timed out making the sign in address.",
+      "no_url_available": "No address is available. Check how Home Assistant is reached.",
+      "oauth_error": "Boliq's sign in answered with something unexpected.",
+      "oauth_failed": "The sign in did not finish.",
+      "oauth_timeout": "The sign in took too long.",
+      "oauth_unauthorized": "Boliq refused the sign in."
+    },
+    "create_entry": {
+      "default": "Your bollards are set up."
+    }
+  }
+}

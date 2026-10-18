@@ -1,0 +1,14 @@
+{
+  "domain": "boliq",
+  "name": "Boliq",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [
+    "application_credentials"
+  ],
+  "documentation": "https://boliq.co.uk/home-assistant.html",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/Boliqltd/boliq-home-assistant/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
